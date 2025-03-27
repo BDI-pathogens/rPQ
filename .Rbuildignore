@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.github$
+examples/*
+docs/*
+scratch/
+LICENSE
