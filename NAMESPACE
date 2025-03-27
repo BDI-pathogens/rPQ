@@ -1,6 +1,6 @@
 # constants exposed by package
-
 # functions exposed by package
+export( pq )
 
 # required packages
 import( data.table )
@@ -10,4 +10,4 @@ import(methods)
 importFrom(rstan, sampling)
 importFrom(rstantools, rstan_config)
 importFrom(RcppParallel, RcppParallelLibs)
-useDynLib(rPQ, .registration = TRUE)
+useDynLib(rpq, .registration = TRUE)

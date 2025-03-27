@@ -1,4 +1,4 @@
-Package: rPQ
+Package: rpq
 Type: Package
 Title: Estimation of prevalence in test datasets
 Version: 0.1.0
