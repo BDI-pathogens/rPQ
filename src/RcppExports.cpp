@@ -12,14 +12,14 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
 
-RcppExport SEXP _rcpp_module_boot_stan_fit4PQ_mod();
+RcppExport SEXP _rcpp_module_boot_stan_fit4pq_mod();
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_rcpp_module_boot_stan_fit4PQ_mod", (DL_FUNC) &_rcpp_module_boot_stan_fit4PQ_mod, 0},
+    {"_rcpp_module_boot_stan_fit4pq_mod", (DL_FUNC) &_rcpp_module_boot_stan_fit4pq_mod, 0},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_rPQ(DllInfo *dll) {
+RcppExport void R_init_rpq(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }
