@@ -14,7 +14,7 @@ Imports:
     rstan (>= 2.18.1),
     rstantools (>= 2.4.0)
 Description: Estimation of prevalence in test datasets
-License: Apache License (== 2.0)
+License: GPL (>= 3)
 LazyData: TRUE
 Biarch: true
 LinkingTo: 
