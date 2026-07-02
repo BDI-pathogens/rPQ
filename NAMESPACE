@@ -1,6 +1,7 @@
 # constants exposed by package
 # functions exposed by package
 export( pq )
+export( pq_mult )
 
 # required packages
 import( data.table )
