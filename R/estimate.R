@@ -47,7 +47,7 @@ pq = function(
   )
 
   # run stan
-  stan_model <- rpq:::stanmodels$pq
+  stan_model <- rpq:::stanmodels$PQ
   if( stan.verbose ) {
     stan_raw <- sampling( stan_model, data = stan_data, iter = stan.iter, chains = stan.chains )
   } else {
