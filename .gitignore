@@ -2,3 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# C++ and stan build files
+src/*.o
+src/*.so
+src/*.cc
+src/*.h
