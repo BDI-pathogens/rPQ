@@ -1,8 +1,8 @@
 data {
   int<lower=0> n_bucket;
-  int<lower=0> train_pos[n_bucket];
-  int<lower=0> train_neg[n_bucket];
-  int<lower=0> test[n_bucket];
+  array[n_bucket] int<lower=0> train_pos;
+  array[n_bucket] int<lower=0> train_neg;
+  array[n_bucket] int<lower=0> test;
   int<lower=0,upper=1> posterior;
 }
 
